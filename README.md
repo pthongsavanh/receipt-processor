@@ -6,7 +6,8 @@ I will be committing code often with detailed messages in such a way to illustra
 process, start to finish, so that the progress can be fully tracked.
 
 ## Development Choices and Reasoning
-SpringBoot (Java) will be used to quickly provide HTTP API scaffolding and payload (de)serialization. 
+SpringBoot (Java) will be used to quickly provide HTTP API scaffolding and payload (de)serialization.
+In addition, Lombok is used to to reduce code around Java object definition.
 
 ### Code Organization/Package structure
 While this initial application is quite simple, we will be organizing the code in such a way that 
@@ -17,5 +18,13 @@ we can readily replace adapter layers (API and data stores). The package structu
 - `com.pthongsavanh.data` - Data formats, access, and persistence layer
 
 ## Running the application
-The application will be runnable in a Docker container (Dockerfile). How to run:
-1. TBD
+The application will be runnable in a Docker container (Dockerfile).
+
+How to run:
+1. TODO
+
+## Running unit tests
+Unit tests will be runnable via docker as well (output will be the Maven build).
+
+How to run:
+1. TODO
