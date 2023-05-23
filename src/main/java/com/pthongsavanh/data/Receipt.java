@@ -18,4 +18,5 @@ import lombok.NoArgsConstructor;
 public class Receipt {
 	UUID id;
 	String retailer;
+	String total;
 }

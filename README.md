@@ -28,3 +28,11 @@ Unit tests will be runnable via docker as well (output will be the Maven build).
 
 How to run:
 1. TODO
+
+## MAJOR TODOS
+1. add validation for receipt data
+1. Rules to implement
+  - 5 points for every two items on the receipt.
+  - If the trimmed length of the item description is a multiple of 3, multiply the price by 0.2 and round up to the nearest integer. The result is the number of points earned.
+  - 6 points if the day in the purchase date is odd.
+  - 10 points if the time of purchase is after 2:00pm and before 4:00pm.
