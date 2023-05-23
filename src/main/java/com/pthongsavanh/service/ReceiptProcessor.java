@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.pthongsavanh.data.EvaluationResults;
-import com.pthongsavanh.data.EvaluationResultsDataStore;
 import com.pthongsavanh.data.Receipt;
+import com.pthongsavanh.data.persistence.EvaluationResultsDataStore;
 import com.pthongsavanh.service.rules.RuleInterface;
 
 @Service

@@ -15,7 +15,7 @@ we can readily replace adapter layers (API and data stores). The package structu
 
 - `com.pthongsavanh.api` - API adapter layer code
 - `com.pthongsavanh.service` - business logic layer
-- `com.pthongsavanh.data` - Data formats, access, and persistence layer
+- `com.pthongsavanh.data` - Data formats and persistence layer
 
 ## Running the application
 The application will be runnable in a Docker container (Dockerfile).

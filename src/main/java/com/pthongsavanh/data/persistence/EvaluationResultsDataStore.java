@@ -1,9 +1,11 @@
-package com.pthongsavanh.data;
+package com.pthongsavanh.data.persistence;
 
 import java.util.HashMap;
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
+
+import com.pthongsavanh.data.EvaluationResults;
 
 /**
  * Data storage functions are encapsulated in this class so that we
